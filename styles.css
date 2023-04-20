@@ -8,6 +8,11 @@
 body{
   background-color: #eaeaea;
 }
+.logo{
+  height: 30px;
+  border-radius: 50%;
+}
+/* registration */
 nav{
   background-color: #06066a;
   position: fixed;
@@ -33,29 +38,54 @@ nav p{
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color:transparent;
+  display: flex;
 }
-nav a{
-  text-decoration: none;
-  color: #06066a;
-  height: 36px;
-  border-radius: 18px;
-  width: 100px;
+
+/* nav button */
+nav button{
+  height: 38px;
+  width: 106px;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  white-space: nowrap;
+  position: relative;
+}
+nav button a{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f5f5f5;
+  color: #06066a;
+  text-decoration: none;
+  z-index: 100;
+  height: 38px;
   position: relative;
 }
-nav a:hover{
-  background-color: aquamarine;
-  cursor: pointer;
-  transition: all ease-in-out 0.2s;
+nav button a:hover{
+  z-index: 500;
+  color: #060152;
+  transition: all 0.2s ease-in-out;
+}
+nav button::after{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  /* background: #caffed; */
+  background: #ffd890;
+  transition: all 0.2s  ease-in-out;
+  border-radius: 18px;
+}
+nav button:hover:after{
+  height: 100%;
+  transition: all ease-in-out 0.3s;
 }
 
-
-nav a:hover:active{
-  opacity: 0.8;
-}
 nav main{
   font-size: 22px;
   font-weight: bold;
@@ -119,6 +149,8 @@ nav main:hover{
   cursor: pointer;
 }
 
+
+/* main section */
 .main{
   margin-top: 25px;
   display: flex;
@@ -156,7 +188,7 @@ section p{
   white-space: nowrap;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .sec span{
   background-color: #fff;
@@ -180,8 +212,9 @@ section:hover{
   opacity: 0.9;
 }
 .sec a:hover{
-  color: aqua;
+  color: #06066a;
   cursor: pointer;
+  text-decoration: underline;
   transition: all ease-in-out 0.2s;
 }
 
@@ -198,4 +231,32 @@ section:hover{
   font-weight: bold;
   text-decoration: underline;
   color: #06066a;
+}
+.title1.first{
+  margin-top: 110px;
+}
+
+/* marquee */
+.marquee{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 60px;
+  height: 40px;
+  color: #020024;
+  position: fixed;
+  right: 0;
+  left: 1px;
+  border-bottom: #b7b0ff dotted 1px;
+  z-index: 50;
+  background-color: #ffffff;
+}
+marquee{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  overflow: hidden;
+  margin-left: 8px;
+  margin-right: 8px;
 }
