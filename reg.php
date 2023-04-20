@@ -11,17 +11,21 @@
 </head>
 <body>
   <div class="main">
-    <form action="#" method="post">
+
+  <!-- registration form -->
+    <form id="form1" action="#" method="post" class="form1">
 
       <div class="inputs">
       <label for="name">Enter Your Name.</label>
-      <input title="Enter your name" type="text" name="name" id="name">
+      <input title="Enter your name" type="text" name="name" id="name" required autofocus>
       </div>
+        <small>Error</small>
 
       <div class="inputs">
       <label for="email">Enter Your Email.</label>
-      <input title="Enter your email" type="email" name="email" id="email">
+      <input title="Enter your email" type="email" name="email" id="email" required autofocus pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}">
       </div>
+      <small>Error</small>
 
       <div class="inputs">
       <label for="pwd1">Enter Your Password.</label>
@@ -31,6 +35,7 @@
         <i id="view" class="fa-solid fa-eye"></i>
       </div>
       </div>
+      <small>Error</small>
 
       <div class="inputs">
       <label for="pdw2">Confirm Your Password.</label>
@@ -40,8 +45,31 @@
         <i id="viewer" class="fa-solid fa-eye"></i>
       </div>
       </div>
+      <small>Error</small>
 
       <input type="submit" class="submit" value="Sign Up">
+      <p>To Sign in <a href="#form1">Click Here</a> </p>
+    </form>
+
+
+
+    <!-- login form -->
+    <form id="form2" action="#" method="post" class="form2">
+      <div class="inputs1">
+      <label for="email">Enter Your Email.</label>
+      <input title="Enter your email" type="email" name="email" id="email" required autofocus pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}">
+      </div>
+    <div class="inputs1">
+      <label for="pwd3">Enter Your Password.</label>
+     <input title="Enter your password" type="password" name="pwd3" id="pwd3" minlength="6" inputmode="numeric" maxlength="16" size="8" autocomplete="on" required autofocus>
+      <div class="toggle">
+        <i id="hidden" class="fa-solid fa-eye-slash"></i>
+        <i id="viewed" class="fa-solid fa-eye"></i>
+      </div>
+      </div>
+
+      <input type="submit" class="submit" value="Sign In">
+      <p>To Sign Up <a href="#form2">Click Here</a> </p>
     </form>
   </div>
   <script src="./form.js" type="text/javascript"></script>

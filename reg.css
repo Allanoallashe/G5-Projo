@@ -14,14 +14,15 @@ body{
   align-items: center;
   justify-content: center;
 }
-form{
+.form1{
   background-color: #06068f;
   display: flex;
+  /* display: none; */
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 20px;
-  height: 60vh;
+  height: 75vh;
   font-size: 18px;
   max-width: 500px;
   width: 85%;
@@ -30,7 +31,7 @@ form{
   border-radius: 10px;
   border: solid 1px #06068f;
 }
-form .inputs{
+.form1 .inputs{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -78,4 +79,115 @@ form .inputs{
 #pwd1,
 #pwd2{
   letter-spacing: 14px;
+}
+
+.inputs input:focus{
+  outline: solid 2px #ff2f52;
+  /* outline: solid 2px #00e900; */
+  background-color: #fff;
+}
+.submit:focus{
+  outline: none;
+  background-color: #fff;
+}
+.submit{
+  background-color:yellow;
+  height: 38px;
+  width: 40%;
+  border: none;
+  border-radius: 20px;
+  color: #06068f;
+  font-size: 16px;
+  font-weight: bold;
+}
+.submit:hover{
+  transform: scale(1.025);
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+.form1 a{
+  color: #fff;
+}
+
+.form1 small{
+  width: 85%;
+  margin-top: -5px;
+  height: 20px;
+  color: #ff002b;
+  visibility: hidden;
+}
+
+/* form2 */
+.form2{
+  background-color: #06068f;
+  /* display: flex; */
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 40vh;
+  font-size: 18px;
+  max-width: 500px;
+  width: 85%;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 10px;
+  border: solid 1px #06068f;
+}
+.form2 a{
+  color: #fff;
+}
+#pwd3{
+  letter-spacing: 14px;
+}
+.form2 .inputs1{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 70px;
+  width: 90%;
+  position: relative;
+}
+.inputs1 label{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 94%;
+  height: 30px;
+}
+.inputs1 input{
+  height: 36px;
+  padding-left: 15px;
+  color: #06068f;
+  width: 90%;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background-color: #fff;
+}
+.inputs1 .toggle{
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 30px;
+  right: 16px;
+  color: #06068f;
+  cursor: pointer;
+}
+.inputs1 .toggle i:last-child{
+  display: none;
+}
+.inputs1 input:focus{
+  outline: solid 2px #ff2f52;
+  /* outline: solid 2px #00e900; */
+  background-color: #fff;
 }

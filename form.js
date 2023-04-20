@@ -26,3 +26,21 @@ document.getElementById('viewer').onclick = () => {
   document.getElementById('pwd2').type="password";
   document.getElementById('pwd2').style.letterSpacing="14px";
 }
+
+// login password
+document.getElementById('hidden').onclick = () => {
+  document.getElementById('viewed').style.display="contents";
+  document.getElementById('hidden').style.display="none";
+  document.getElementById('pwd3').type = "text";
+    document.getElementById('pwd3').style.letterSpacing="5px";
+}
+document.getElementById('viewed').onclick = () => {
+  document.getElementById('hidden').style.display="contents";
+  document.getElementById('viewed').style.display = "none";
+  document.getElementById('pwd3').type="password";
+  document.getElementById('pwd3').style.letterSpacing="14px";
+}
+
+
+
+// form validation js
