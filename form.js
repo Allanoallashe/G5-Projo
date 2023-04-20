@@ -44,3 +44,91 @@ document.getElementById('viewed').onclick = () => {
 
 
 // form validation js
+
+const userName = document.getElementById('name');
+const emailOne = document.getElementById('email1');
+const emailTwo = document.getElementById('email2');
+const pwdOne = document.getElementById('pwd1');
+const pwdTwo = document.getElementById('pwd2');
+const formOne = document.querySelector('.form1');
+
+
+function Validation() {
+  // check an empty user name
+  if (userName.value.trim() === "") {
+    Invalid(userName,"User Name Is Required!");
+  }
+  else {
+    Successful(userName);
+  }
+  // registration email
+  if (emailOne.value.trim() === "") {
+    Invalid(emailOne,"Enter Your Email!");
+  }
+  else {
+    if (!validEmail(emailOne.value.trim())) {
+      Invalid(emailOne,"Invalid Email!");
+    } else 
+      Successful(emailOne);
+  }
+
+  // login email
+  if (emailTwo.value.trim() === "") {
+    Invalid(emailTwo,"Enter Your Email!");
+  }
+  else {
+    if (!validEmail(emailTwo.value.trim())) {
+      Invalid(emailTwo,"Invalid Email!");
+    } else 
+      Successful(emailTwo);
+  }
+  // password1
+   if (pwdOne.value.trim() === "") {
+    Invalid(pwdOne,"Password1 Is Required!");
+  }
+  else {
+    Successful(pwdOne);
+  }
+
+  // Password2
+   if (pwdTwo.value.trim() === "") {
+    Invalid(pwdTwo,"Password2 Is Required!");
+  }
+   else {
+     if (pwdTwo.value.trim() !== pwdOne.value.trim()) {
+       Invalid(pwdTwo, "Passwords do not Match!");
+     } else {
+       Successful(pwdTwo);
+     }
+  }
+}
+
+function Successful(input) {
+  let parent = input.parentElement;
+  let message = parent.querySelector('small');
+   message.style.visibility = "hidden";
+  // parent.classList.add('valid');
+  // parent.classList.remove('empty');
+}
+function Invalid(input,alert) {
+  let parent = input.parentElement;
+  let message = parent.querySelector('small');
+   message.style.visibility='visible';
+   message.innerText = alert;
+  // parent.classList.add('empty');
+  // parent.classList.remove('valid');
+}
+function validEmail(emailOne)
+{
+  return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(emailOne);
+}
+function validEmail(emailTwo)
+{
+  return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(emailTwo);
+}
+
+document.querySelector('.submit').addEventListener('click', (event) => {
+  Validation();
+  // event.preventDefault();
+});
+

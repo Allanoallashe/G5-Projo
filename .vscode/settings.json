@@ -1,5 +1,8 @@
 {
-  "workbench.preferredHighContrastLightColorTheme": "Default Dark+",
-  "workbench.preferredLightColorTheme": "Default Dark+",
-  "react-native-tools.networkInspector.consoleLogsColorTheme": "Dark"
+  "workbench.preferredHighContrastLightColorTheme": "Monokai",
+  "workbench.preferredLightColorTheme": "Monokai",
+  "react-native-tools.networkInspector.consoleLogsColorTheme": "Dark",
+  "workbench.colorTheme": "Monokai",
+  "workbench.preferredDarkColorTheme": "Monokai",
+  "workbench.preferredHighContrastColorTheme": "Monokai"
 }

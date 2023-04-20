@@ -109,10 +109,12 @@ body{
   color: #fff;
 }
 
-.form1 small{
-  width: 85%;
-  margin-top: -5px;
+.form1 .small{
+  position: absolute;
+  bottom: -20px;
+  width: 92%;
   height: 20px;
+  margin-top: 3px;
   color: #ff002b;
   visibility: hidden;
 }
@@ -137,6 +139,16 @@ body{
 }
 .form2 a{
   color: #fff;
+}
+.submit1{
+  background-color:yellow;
+  height: 38px;
+  width: 40%;
+  border: none;
+  border-radius: 20px;
+  color: #06068f;
+  font-size: 16px;
+  font-weight: bold;
 }
 #pwd3{
   letter-spacing: 14px;
