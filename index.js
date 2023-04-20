@@ -1,6 +1,7 @@
 
+const main = document.getElementById('main'); 
 
-document.getElementById('main').addEventListener('click', ()=> {
+  main.addEventListener('click', ()=> {
   document.querySelector('.drop-down').style.marginTop = "0";
   document.querySelector('.drop-down').style.transition="all 0.3s ease-in-out";
 });
@@ -8,6 +9,8 @@ document.getElementById('main').addEventListener('click', ()=> {
 const Close = document.getElementById('close');
 
 Close.addEventListener('click', () => {
-    document.querySelector('.drop-down').style.marginTop="-100%";
+    document.querySelector('.drop-down').style.marginTop="-200%";
     document.querySelector('.drop-down').style.transition="all 0.3s ease-in-out";
 })
+
+

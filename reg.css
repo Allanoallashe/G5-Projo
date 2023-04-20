@@ -6,6 +6,8 @@ body{
 }
 .main{
   background-color: lavender;
+  background-image: url('./images/background.jpg');
+  background-size: cover;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -35,6 +37,7 @@ form .inputs{
   flex-direction: column;
   height: 70px;
   width: 90%;
+  position: relative;
 }
 .inputs label{
   display: flex;
@@ -44,11 +47,35 @@ form .inputs{
   height: 30px;
 }
 .inputs input{
-  height: 30px;
+  height: 36px;
   padding-left: 15px;
   color: #06068f;
   width: 90%;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
   outline: none;
   border: none;
   background-color: #fff;
+}
+.inputs .toggle{
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 30px;
+  right: 16px;
+  color: #06068f;
+  cursor: pointer;
+}
+.inputs .toggle i:last-child{
+  display: none;
+}
+#pwd1,
+#pwd2{
+  letter-spacing: 14px;
 }

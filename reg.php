@@ -11,7 +11,7 @@
 </head>
 <body>
   <div class="main">
-    <form action="#">
+    <form action="#" method="post">
 
       <div class="inputs">
       <label for="name">Enter Your Name.</label>
@@ -25,7 +25,7 @@
 
       <div class="inputs">
       <label for="pwd1">Enter Your Password.</label>
-      <input title="Enter your password" type="password" name="pwd1" id="pwd1">
+      <input title="Enter your password" type="password" name="pwd1" id="pwd1" minlength="6" inputmode="numeric" maxlength="16" size="8" autocomplete="on" required autofocus>
       <div class="toggle">
         <i id="hide" class="fa-solid fa-eye-slash"></i>
         <i id="view" class="fa-solid fa-eye"></i>
@@ -34,15 +34,16 @@
 
       <div class="inputs">
       <label for="pdw2">Confirm Your Password.</label>
-      <input title="Confirm your Password" type="password" name="pwd2" id="pwd2">
+      <input title="Confirm your Password" type="password" name="pwd2" id="pwd2" minlength="6" inputmode="numeric" maxlength="16" size="8" autocomplete="on" required autofocus>
       <div class="toggle">
-        <i id="hide" class="fa-solid fa-eye-slash"></i>
-        <i id="view" class="fa-solid fa-eye"></i>
+        <i id="hider" class="fa-solid fa-eye-slash"></i>
+        <i id="viewer" class="fa-solid fa-eye"></i>
       </div>
       </div>
 
-      <button type="submit" class="submit">Sign Up</button>
+      <input type="submit" class="submit" value="Sign Up">
     </form>
   </div>
+  <script src="./form.js" type="text/javascript"></script>
 </body>
 </html>
