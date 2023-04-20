@@ -1,0 +1,186 @@
+*{
+  box-sizing: border-box;
+  margin: auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: auto;
+}
+
+body{
+  background-color: #eaeaea;
+}
+nav{
+  background-color: #06066a;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: dotted rgb(21, 126, 126) 1px;
+}
+nav p{
+  text-transform: uppercase;
+  font-size: 25px;
+  background-image: linear-gradient(to right, #ffff00 0%, #d0d025 25%, #d2d284 50%, #ffff1f 75%, #ffff00 100%);
+  background-size: 30%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color:transparent;
+}
+nav a{
+  text-decoration: none;
+  color: #06066a;
+  height: 36px;
+  border-radius: 18px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  position: relative;
+}
+nav a:hover{
+  background-color: aquamarine;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+
+nav a:hover:active{
+  opacity: 0.8;
+}
+nav main{
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  padding: 2px 8px;
+  border-radius: 2px;
+  position: relative;
+}
+nav .drop-down{
+  background-color: #06066a;
+  position: absolute;
+  top: 0;
+  margin-top: -100%;
+  width: 300px;
+  height: 230px;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.drop-down h5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 80%;
+  font-size: 18px;
+  border-radius: 4px;
+}
+.drop-down h4:hover{
+  color: yellow;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.drop-down h5:hover{
+  background-color: #f5f5f5;
+  color: #06066a;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+.drop-down h4{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 30px;
+  width: 100%;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: -4px;
+}
+nav main:hover{
+  background-color: #f5f5f5;
+  color: #06066a;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+.main{
+  margin-top: 61px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  right: 0;
+  left: 0;
+  row-gap: 30px;
+  column-gap: 10px;
+  padding: 10px;
+}
+
+section{
+  background-color: #06066a;
+  height: 350px;
+  border-radius: 10px;
+  width: 300px;
+  padding: 5px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.img{
+  background-color: yellow;
+  height: 180px;
+  width: 90%;
+}
+section p{
+  font-size: 18px;
+  font-weight: bold;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec span{
+  background-color: #fff;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  border-radius: 15px;
+  margin-right: 5px;
+}
+.sec a{
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+section:hover{
+  transform: scale(1.045);
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+  opacity: 0.9;
+}
+.sec a:hover{
+  color: aqua;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
