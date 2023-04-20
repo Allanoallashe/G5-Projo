@@ -25,8 +25,155 @@
 
       <a href="#">Login</a>
     </nav>
-    
+         <div class="title1">
+          <p>Terestrial Animals &plus;</p>
+        </div>
       <div class="main">
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+      </div>
+<!-- plants section -->
+        <div class="title1">
+          <p>Plants &plus;</p>
+        </div>
+      <div class="main">
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+      </div>
+
+      <!-- section2 -->
+      <div class="title1">
+          <p>Aquatic Animals &plus;</p>
+        </div>
+      <div class="main">
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+      </div>
+
+      <!-- section3 -->
+      <div class="title1">
+          <p>Birds Animals &plus;</p>
+        </div>
+      <div class="main">
+        <section class="sec">
+          <div class="img">Image</div>
+          <p><span>c</span> This is a Rhino</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
         <section class="sec">
           <div class="img">Image</div>
           <p><span>c</span> This is a Rhino</p>

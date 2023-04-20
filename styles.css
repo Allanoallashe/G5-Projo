@@ -73,7 +73,7 @@ nav .drop-down{
   top: 0;
   margin-top: -100%;
   width: 300px;
-  height: 230px;
+  height: 421px;
   padding: 10px;
   border-radius: 4px;
   display: flex;
@@ -102,10 +102,10 @@ nav .drop-down{
   cursor: pointer;
   transition: all ease-in-out 0.2s;
 }
-.drop-down h4{
+.drop-down #close{
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content:flex-end;
   height: 30px;
   width: 100%;
   font-size: 25px;
@@ -120,7 +120,7 @@ nav main:hover{
 }
 
 .main{
-  margin-top: 61px;
+  margin-top: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -183,4 +183,19 @@ section:hover{
   color: aqua;
   cursor: pointer;
   transition: all ease-in-out 0.2s;
+}
+
+/* titles */
+.title1{
+  margin-top: 71px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  height: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #06066a;
 }
