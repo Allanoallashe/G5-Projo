@@ -50,7 +50,7 @@ body{
 .inputs input{
   height: 36px;
   padding-left: 15px;
-  color: #06068f;
+  color: #000017;
   width: 90%;
   font-size: 16px;
   font-weight: bold;
@@ -70,7 +70,7 @@ body{
   position: absolute;
   top: 30px;
   right: 16px;
-  color: #06068f;
+  color: #000010;
   cursor: pointer;
 }
 .inputs .toggle i:last-child{
@@ -88,8 +88,9 @@ body{
 .submit:focus{
   outline: none;
   background-color: #fff;
+  color: #050567;
 }
-.submit{
+/* .submit{
   background-color:yellow;
   height: 38px;
   width: 40%;
@@ -98,7 +99,7 @@ body{
   color: #06068f;
   font-size: 16px;
   font-weight: bold;
-}
+} */
 .submit.one:hover{
   transform: scale(1.025);
   cursor: pointer;
@@ -148,13 +149,13 @@ body{
   text-decoration: underline;
   cursor: pointer;
 }
-.submit1{
-  background-color:yellow;
+.submit{
+  background-color:rgba(0, 0, 0, 0.75);
   height: 38px;
   width: 40%;
   border: none;
   border-radius: 20px;
-  color: #06068f;
+  color: #fff;
   font-size: 16px;
   font-weight: bold;
 }
@@ -180,7 +181,7 @@ body{
 .inputs1 input{
   height: 36px;
   padding-left: 15px;
-  color: #06068f;
+  color: #00001c;
   width: 90%;
   font-size: 16px;
   font-weight: bold;
@@ -200,7 +201,7 @@ body{
   position: absolute;
   top: 30px;
   right: 16px;
-  color: #06068f;
+  color: #000012;
   cursor: pointer;
 }
 .inputs1 .toggle i:last-child{
@@ -210,3 +211,69 @@ body{
   outline: solid 2px #00b7ff;
   background-color: #fff;
 }
+
+/* registration page navbar */
+  .main nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-bottom: 1px dotted #e2e2e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main nav p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
+  /* registration footer */
+  .main footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 40px;
+    border-top: 1px dotted #dbdbdb;
+  }
+
+  .main footer p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main footer strong{
+    font-size: 25px;
+    margin-right: 2px;
+  }
+  .main footer .social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 200px;
+    width: 80%;
+    height: 30px;
+  }
+   .main footer .social-icons .s-icon-link{
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;
+   }
+   .main footer .social-icons .s-icon-link:hover{
+       transform: scale(1.055);
+       transition: all 0.2s ease-in-out;
+       cursor: pointer;
+   }

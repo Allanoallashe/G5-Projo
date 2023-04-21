@@ -12,6 +12,11 @@
 <body>
   <div class="main">
 
+    <!-- navbar section -->
+    <nav>
+      <p>Welcome To the Registration Page!</p>
+    </nav>
+
   <!-- registration form -->
     <form id="form1" action="#" method="post" class="form1">
 
@@ -74,6 +79,30 @@
       <input type="submit" class="submit one" value="Sign In">
       <p>To Sign Up <a id="signUp" >Click Here</a> </p>
     </form>
+
+       <!-- footer Section -->
+       <footer>
+        <p>
+          <strong>&copy;</strong> @groupFiveDevelopers.com
+        </p>
+        <div class="social-icons">
+          <a href="#" class="s-icon-link" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="s-icon-link" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#" class="s-icon-link" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="#" class="s-icon-link" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="s-icon-link" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+       </footer>
   </div>
   <script src="./form.js" type="text/javascript"></script>
 </body>

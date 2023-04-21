@@ -32,6 +32,13 @@
             </marquee>
           </div>
 
+
+        <!-- image popup -->
+        <div class="popup">
+          <span>&times;</span>
+          <img src="./images/pexels-photo-533990.webp" alt="">
+        </div>
+
           <!-- terestrial -->
          <div class="title1 first">
           <p>Terestrial Animals &plus;</p>
