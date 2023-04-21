@@ -73,15 +73,15 @@ function Validation() {
   }
 
   // login email
-  if (emailTwo.value.trim() === "") {
-    Invalid(emailTwo,"Enter Your Email!");
-  }
-  else {
-    if (!validEmail(emailTwo.value.trim())) {
-      Invalid(emailTwo,"Invalid Email!");
-    } else 
-      Successful(emailTwo);
-  }
+  // if (emailTwo.value.trim() === "") {
+  //   Invalid(emailTwo,"Enter Your Email!");
+  // }
+  // else {
+  //   if (!validEmail(emailTwo.value.trim())) {
+  //     Invalid(emailTwo,"Invalid Email!");
+  //   } else 
+  //     Successful(emailTwo);
+  // }
   // password1
    if (pwdOne.value.trim() === "") {
     Invalid(pwdOne,"Password1 Is Required!");
@@ -103,6 +103,8 @@ function Validation() {
   }
 }
 
+
+// define success
 function Successful(input) {
   let parent = input.parentElement;
   let message = parent.querySelector('small');
@@ -127,8 +129,16 @@ function validEmail(emailTwo)
   return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(emailTwo);
 }
 
-document.querySelector('.submit').addEventListener('click', (event) => {
-  Validation();
-  // event.preventDefault();
-});
+// document.querySelector('.submit').addEventListener('click', (event) => {
+//   Validation();
+//   event.preventDefault();
+// });
 
+  document.querySelector('.submit').addEventListener('click', (e) => {
+    if (pwdTwo.value.trim() === pwdOne.value.trim()) {
+      Validation();
+    } else {
+      Validation();
+      e.preventDefault();
+    }
+  })
