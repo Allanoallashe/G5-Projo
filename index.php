@@ -36,7 +36,7 @@
         <!-- image popup -->
         <div class="popup">
           <span>&times;</span>
-          <img src="./images/pexels-photo-533990.webp" alt="">
+          <img src="./images/pexels-photo-533990.webp" alt="" id="image-pop">
         </div>
 
           <!-- terestrial -->

@@ -20,3 +20,17 @@ document.querySelectorAll('.drop-down a').forEach(a => {
     document.querySelector('.drop-down').style.transition="all ease-in-out 0.5s";
   }
 })
+
+
+
+// popup images
+document.querySelectorAll('.main img').forEach(image => {
+  image.onclick = () => {
+       document.querySelector('.popup').style.display="flex";
+       document.getElementById('image-pop').src = image.getAttribute('src');
+     }
+})
+   
+document.querySelector('.popup span').onclick = () => {
+  document.querySelector('.popup').style.display="none";
+}
