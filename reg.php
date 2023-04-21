@@ -50,8 +50,8 @@
       </div>
       
 
-      <input type="submit" class="submit" value="Sign Up">
-      <p>To Sign in <a href="#form1">Click Here</a> </p>
+      <input type="submit" class="submit two" value="Sign Up">
+      <p>To Sign in <a id="signIn">Click Here</a> </p>
     </form>
 
 
@@ -71,8 +71,8 @@
       </div>
       </div>
 
-      <input type="submit" class="submit1" value="Sign In">
-      <p>To Sign Up <a href="#form2">Click Here</a> </p>
+      <input type="submit" class="submit one" value="Sign In">
+      <p>To Sign Up <a id="signUp" >Click Here</a> </p>
     </form>
   </div>
   <script src="./form.js" type="text/javascript"></script>

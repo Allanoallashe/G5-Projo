@@ -15,9 +15,9 @@ body{
   justify-content: center;
 }
 .form1{
-  background-color: #06068f;
-  display: flex;
-  /* display: none; */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* display: flex; */
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
@@ -29,7 +29,7 @@ body{
   font-weight: bold;
   color: #fff;
   border-radius: 10px;
-  border: solid 1px #06068f;
+  border: none;
 }
 .form1 .inputs{
   display: flex;
@@ -82,8 +82,7 @@ body{
 }
 
 .inputs input:focus{
-  outline: solid 2px #ff2f52;
-  /* outline: solid 2px #00e900; */
+  outline: solid 2px #00b7ff;
   background-color: #fff;
 }
 .submit:focus{
@@ -100,13 +99,20 @@ body{
   font-size: 16px;
   font-weight: bold;
 }
-.submit:hover{
+.submit.one:hover{
+  transform: scale(1.025);
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+.submit.two:hover{
   transform: scale(1.025);
   cursor: pointer;
   transition: all ease-in-out 0.2s;
 }
 .form1 a{
   color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .form1 .small{
@@ -121,9 +127,9 @@ body{
 
 /* form2 */
 .form2{
-  background-color: #06068f;
-  /* display: flex; */
-  display: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  /* display: none; */
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
@@ -135,10 +141,12 @@ body{
   font-weight: bold;
   color: #fff;
   border-radius: 10px;
-  border: solid 1px #06068f;
+  border: none;
 }
 .form2 a{
   color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
 }
 .submit1{
   background-color:yellow;
@@ -199,7 +207,6 @@ body{
   display: none;
 }
 .inputs1 input:focus{
-  outline: solid 2px #ff2f52;
-  /* outline: solid 2px #00e900; */
+  outline: solid 2px #00b7ff;
   background-color: #fff;
 }

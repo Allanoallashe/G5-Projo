@@ -51,6 +51,26 @@ const emailTwo = document.getElementById('email2');
 const pwdOne = document.getElementById('pwd1');
 const pwdTwo = document.getElementById('pwd2');
 const formOne = document.querySelector('.form1');
+const formTwo = document.querySelector('.form2');
+const signUp = document.getElementById('signUp');
+const signIn = document.getElementById('signIn');
+
+
+
+// form display
+signUp.addEventListener('click', () => {
+  formOne.style.display="flex";
+  formTwo.style.display = "none";
+  formOne.style.transition="all ease-in-out 0.5s";
+  formTwo.style.transition="all ease-in-out 0.5s";
+});
+
+signIn.addEventListener('click', () => {
+  formOne.style.display="none";
+  formTwo.style.display="flex";
+  formOne.style.transition="all ease-in-out 0.5s";
+  formTwo.style.transition="all ease-in-out 0.5s";
+})
 
 
 function Validation() {
@@ -129,11 +149,6 @@ function validEmail(emailTwo)
   return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(emailTwo);
 }
 
-// document.querySelector('.submit').addEventListener('click', (event) => {
-//   Validation();
-//   event.preventDefault();
-// });
-
   document.querySelector('.submit').addEventListener('click', (e) => {
     if (pwdTwo.value.trim() === pwdOne.value.trim()) {
       Validation();
@@ -142,3 +157,5 @@ function validEmail(emailTwo)
       e.preventDefault();
     }
   })
+
+  

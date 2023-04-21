@@ -14,3 +14,9 @@ Close.addEventListener('click', () => {
 })
 
 
+document.querySelectorAll('.drop-down a').forEach(a => {
+  a.onclick = () => {
+    document.querySelector('.drop-down').style.marginTop="-200%";
+    document.querySelector('.drop-down').style.transition="all ease-in-out 0.5s";
+  }
+})

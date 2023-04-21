@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color: #eaeaea;
+  background-color: #fff;
 }
 .logo{
   height: 30px;
@@ -97,23 +97,10 @@ nav main{
   border-radius: 2px;
   position: relative;
 }
-nav .drop-down{
-  background-color: #06066a;
-  position: absolute;
-  top: 0;
-  margin-top: -200%;
-  width: 300px;
-  height: 421px;
-  padding: 10px;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.drop-down h5{
-  display: flex;
+nav .drop-down a{
+  text-decoration: none;
+  color: #fff;
+   display: flex;
   align-items: center;
   justify-content: center;
   height: 30px;
@@ -121,16 +108,31 @@ nav .drop-down{
   font-size: 18px;
   border-radius: 4px;
 }
+nav .drop-down a:hover{
+  transition: all ease-in-out 0.2s;
+  color: #06066a;
+  background-color: #f5f5f5;
+}
+nav .drop-down{
+  background-color: #06066a;
+  position: absolute;
+  top: 0;
+  margin-top: -200%;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  border-radius: 4px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .drop-down h4:hover{
   color: yellow;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-}
-.drop-down h5:hover{
-  background-color: #f5f5f5;
-  color: #06066a;
-  cursor: pointer;
-  transition: all ease-in-out 0.2s;
 }
 .drop-down #close{
   display: flex;
@@ -166,7 +168,7 @@ nav main:hover{
 }
 
 section{
-  background-color: #06066a;
+  background-color: rgba(0, 0, 0, 0.2);
   height: 350px;
   border-radius: 10px;
   width: 300px;
@@ -178,9 +180,17 @@ section{
   justify-content: space-between;
 }
 .img{
-  background-color: yellow;
+  background-color: rgb(236, 233, 233);
   height: 180px;
   width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img img{
+    height: 180px;
+    width: 100%;
+    border-radius: 5px;
 }
 section p{
   font-size: 18px;

@@ -8,22 +8,24 @@
   <title>group5BlogPages</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="xtypes/images" href="./images/pexels-photo-533990.webp">
+  <script src="https://kit.fontawesome.com/9acafcca7d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
       <p><img class="logo" src="./images/logo.jpg"> Wildlife</p>
        <main id="main">
-        Terestrial
+        <i class="fa fa-caret-down"></i> Terestrial
         </main> 
         <!-- drop down -->
         <div class="drop-down">
           <h4 id="close">&times;</h4>
-          <h5>Plants</h5>
-          <h5>Aqua</h5>
-          <h5>Aves</h5>
+          <a href="#plants">Plants</a>
+          <a href="#aquatic">Aquatic</a>
+          <a href="#birds">Birds</a>
+          <a href="#">Terestrial</a>
         </div>
 
-      <button><a href="#">Login</a></button>
+      <button><a href="./reg.php">Login</a></button>
     </nav>
           <div class="marquee">
             <marquee behavior="scroll" direction="left" loop="10000" scrollamount="2">The wildlife of Kenya refers to its fauna. The diversity of Kenya's wildlife has garnered international fame, especially for its populations of large mammals. Mammal species include lion (Panthera leo), cheetah (Acinonyx jubatus) hippopotamus (Hippopotamus amphibius), African buffalo (Syncerus caffer), wildebeest (Connochaetes), African bush elephant (Loxodonta africana), zebra (Equus), giraffe (Giraffa), and rhinoceros. Kenya has a very diverse population of birds, including flamingo and common ostrich (Struthio camelus)
@@ -36,43 +38,53 @@
         </div>
       <div class="main">
         <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <div class="img"><img src="./images/Rhino.jpg" alt=""></div>
+          <p><span>c</span>Rhino</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <div class="img"><img src="./images/elephant.jpg" alt=""></div>
+          <p><span>c</span>Elephant</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <div class="img"><img src="./images/buffalo.jpg" alt=""></div>
+          <p><span>c</span>Buffalo</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <div class="img"><img src="./images/lion.jpg" alt=""></div>
+          <p><span>c</span>Lion</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <div class="img"><img src="./images/leopard.jpg" alt=""></div>
+          <p><span>c</span>Leopard</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <div class="img"><img src="./images/giraffe.jpg" alt=""></div>
+          <p><span>c</span>Giraffe</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <div class="img"><img src="./images/gorilla.jpg" alt=""></div>
+          <p><span>c</span>Gorilla</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <div class="img"><img src="./images/hyena.jpg" alt=""></div>
+          <p><span>c</span>Hyena</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section class="sec">
+          <div class="img"><img src="./images/wilde beest.jpg" alt=""></div>
+          <p><span>c</span>Wilde Beest</p>
+          <a href="" target="blank">click to view more</a>
+        </section>
+        <section id="plants" class="sec">
+          <div class="img"><img src="./images/snake.jpg" alt=""></div>
+          <p><span>c</span>Snake</p>
           <a href="" target="blank">click to view more</a>
         </section>
       </div>
@@ -117,103 +129,103 @@
           <p><span>c</span> Plants</p>
           <a href="" target="blank">click to view more</a>
         </section>
-        <section class="sec">
+        <section id="aquatic" class="sec">
           <div class="img">Image</div>
           <p><span>c</span> Plants</p>
           <a href="" target="blank">click to view more</a>
         </section>
       </div>
 
-      <!-- section2 -->
+      <!-- aquatic section -->
       <div class="title1">
           <p>Aquatic Animals &plus;</p>
         </div>
       <div class="main">
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <p><span>c</span> Aquatic</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <p><span>c</span> Aquatic</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <p><span>c</span> Aquatic</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <p><span>c</span> Aquatic</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <p><span>c</span> Aquatic</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <p><span>c</span> Aquatic</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <p><span>c</span> Aquatic</p>
           <a href="" target="blank">click to view more</a>
         </section>
-        <section class="sec">
+        <section id="birds" class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <p><span>c</span> Aquatic</p>
           <a href="" target="blank">click to view more</a>
         </section>
       </div>
 
-      <!-- section3 -->
+      <!-- birds -->
       <div class="title1">
-          <p>Birds Animals &plus;</p>
+          <p>Birds &plus;</p>
         </div>
       <div class="main">
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <p><span>c</span>Birds</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <p><span>c</span>Birds</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <p><span>c</span>Birds</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <p><span>c</span>Birds</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <p><span>c</span>Birds</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <p><span>c</span>Birds</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <p><span>c</span>Birds</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> This is a Rhino</p>
+          <p><span>c</span>Birds</p>
           <a href="" target="blank">click to view more</a>
         </section>
       </div>
