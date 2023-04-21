@@ -18,7 +18,7 @@
     </nav>
 
   <!-- registration form -->
-    <form id="form1" action="#" method="post" class="form1">
+    <form id="form1" action="./sign.php" method="post" class="form1">
 
       <div class="inputs">
       <label for="name">Enter Your Name.</label>
@@ -62,10 +62,10 @@
 
 
     <!-- login form -->
-    <form id="form2" action="#" method="post" class="form2">
+    <form id="form2" action="./login.php" method="post" class="form2">
       <div class="inputs1">
       <label for="email">Enter Your Email.</label>
-      <input title="Enter your email" type="email" name="email" id="email2" required autofocus pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}">
+      <input title="Enter your email" type="email" name="email2" id="email2" required autofocus pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}">
       </div>
     <div class="inputs1">
       <label for="pwd3">Enter Your Password.</label>
