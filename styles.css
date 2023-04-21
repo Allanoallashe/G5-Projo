@@ -270,3 +270,87 @@ marquee{
   margin-left: 8px;
   margin-right: 8px;
 }
+
+
+/* scroll bar */
+::-webkit-scrollbar{
+  width: 16px;
+  border-left: #a7a0ee solid 1px;
+  border-right: #020022 solid 1px;
+}
+::-webkit-scrollbar:horizontal{
+  height: 14px;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right,#003B7C, #00538B, #83BBE6); 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:horizontal {
+    background: linear-gradient(to bottom,#003B7C, #00538B, #83BBE6); 
+    border-radius: 10px;
+    resize: both;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #003B7C; 
+    border-radius: 10px;
+    background: rgb(240, 240, 240);
+    border-left: 6px solid rgba(255,255,255,0);
+    border-right: 6px solid rgba(255,255,255,0);
+    background-clip: content-box;
+}
+::-webkit-scrollbar-track:horizontal {
+    box-shadow: inset 0 0 5px #003B7C; 
+    border-radius: 10px;
+    background: rgb(240, 240, 240);
+    border-top: 5px solid rgba(255,255,255,0);
+    border-bottom: 5px solid rgba(255,255,255,0);
+    background-clip: content-box;
+}
+
+::-webkit-resizer{
+  resize: both;
+  overflow: scroll;
+}
+
+
+::-webkit-scrollbar-button {
+    border-style: solid;
+    height: 16px;
+    width: 16px;
+}
+
+::-webkit-scrollbar-corner{
+  background-color: #060152;
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+    border-width: 0 8px 12px 8px;
+    border-color: transparent transparent #003B7C transparent;
+}
+::-webkit-scrollbar-button:horizontal:decrement {
+    border-width: 7px 12px 7px 0;
+    border-color: transparent #003B7C transparent transparent;
+}
+
+::-webkit-scrollbar-button:vertical:decrement:hover {
+    border-color: transparent transparent #0069d8  transparent;
+}
+::-webkit-scrollbar-button:horizontal:decrement:hover {
+   border-color: transparent #0069d8 transparent transparent;
+}
+
+::-webkit-scrollbar-button:vertical:increment {
+    border-width: 12px 8px 0 8px;
+    border-color: #003B7C transparent transparent transparent;
+}
+::-webkit-scrollbar-button:horizontal:increment {
+    border-width: 7px 0 7px 12px;
+    border-color: transparent transparent transparent #003B7C;
+}
+
+::-webkit-scrollbar-button:vertical:increment:hover {
+    border-color: #0069d8 transparent transparent transparent;
+}
+::-webkit-scrollbar-button:horizontal:increment:hover {
+    border-color: transparent transparent transparent #0069d8;
+}
