@@ -152,6 +152,44 @@ nav main:hover{
 }
 
 
+/* profile /profile.php /profile drop down */
+.profile{
+  background-color: #fff;
+  color: #07006f;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 40px;
+  padding: 2px 16px;
+  border-radius: 20px;
+  border: none;
+  position: relative;
+  cursor: grab;
+}
+.profile i:first-child{
+  margin-right: 6px;
+}
+#viewProfile{
+  margin-left: 3px;
+}
+.profileDrop{
+  position: absolute;
+  top: 45px;
+  left: -30px;
+  color: #fff;
+  background-color: #06066a;
+  display: none;
+  z-index: 10000;
+  align-items: center;
+  width: 180px;
+  height: 130px;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+
 /* main section */
 .main{
   margin-top: 25px;
@@ -168,7 +206,7 @@ nav main:hover{
 }
 
 section{
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #eaeaea;
   height: 350px;
   border-radius: 10px;
   width: 300px;

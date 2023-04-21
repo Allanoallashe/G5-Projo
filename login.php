@@ -62,7 +62,7 @@ function random_num($length){
     }
    }
   //  redirect to login 
-  header("Location: index.php");
+  header("Location: reg.php");
   die;
 }
 

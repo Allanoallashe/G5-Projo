@@ -34,3 +34,19 @@ document.querySelectorAll('.main img').forEach(image => {
 document.querySelector('.popup span').onclick = () => {
   document.querySelector('.popup').style.display="none";
 }
+
+
+
+// profile view
+const profile = document.querySelector('.profile');
+const profileDisplay = document.querySelector('.profileDrop');
+  
+profile.addEventListener('mouseenter', () => {
+  profileDisplay.style.display = "flex";
+  profileDisplay.style.transition="all 0.3s ease-in-out";
+});
+
+profileDisplay.addEventListener('mouseleave', () => {
+  profileDisplay.style.display="none";
+  profileDisplay.style.transition="all 0.3s ease-in-out";
+})
