@@ -4,6 +4,9 @@
   include("connect.php");
 
 
+  // catch errors
+  try{
+
        // login session
 
   if($_SERVER['REQUEST_METHOD'] == "POST"){
@@ -31,6 +34,9 @@
     }else{
       echo "invalid information!";
     }
+  }
+  } catch(Exception $e) {
+    echo ('The Email does not Exist Register First!');
   }
   
 

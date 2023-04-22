@@ -9,20 +9,38 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="xtypes/images" href="./images/pexels-photo-533990.webp">
   <script src="https://kit.fontawesome.com/9acafcca7d.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 <body>
-    <nav>
-      <p><img class="logo" src="./images/logo.jpg"> Wildlife</p>
+  <nav>
+      <!-- <p><img class="logo" src="./images/logo.jpg"> Wildlife</p> -->
+      <div class="graphics">
+        <img class="logo" src="./images/logo.jpg">
+        <svg viewBox="0 0 960 300">
+          <symbol id="s-text">
+            <text text-anchor="middle" x="50%" y="80%">Wildlife</text>
+          </symbol>
+
+          <g class = "g-ants">
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+          </g>
+        </svg>
+      </div>
+
        <main id="main">
-        <i class="fa fa-caret-down"></i> Terestrial
+        <i class="fa fa-caret-down"></i> More
         </main> 
         <!-- drop down -->
-        <div class="drop-down">
+        <div class="drop-down home">
           <h4 id="close">&times;</h4>
-          <a href="#plants">Plants</a>
-          <a href="#aquatic">Aquatic</a>
-          <a href="#birds">Birds</a>
-          <a href="#">Terestrial</a>
+          <a href="./reg.php">Plants</a>
+          <a href="./reg.php">Aquatic</a>
+          <a href="./reg.php">Birds</a>
+          <a href="./reg.php">Terestrial</a>
         </div>
 
       <button><a href="./reg.php">Login</a></button>
@@ -39,208 +57,85 @@
           <img src="./images/pexels-photo-533990.webp" alt="" id="image-pop">
         </div>
 
-          <!-- terestrial -->
-         <div class="title1 first">
-          <p>Terestrial Animals &plus;</p>
-        </div>
+          <!-- home page section -->
+      <div class="typewriter">
+        <h2>
+          <span class="auto-type"></span> 
+        </h2>
+      </div>
       <div class="main last">
         <section class="sec">
-          <div class="img"><img src="./images/Rhino.jpg" alt=""></div>
-          <p><span>c</span>Rhino</p>
+          <div class="img"><img src="./images/big five.jpg" alt="bigFive"></div>
+          <p><span>c</span>The Big Five Africa</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
-          <div class="img"><img src="./images/elephant.jpg" alt=""></div>
-          <p><span>c</span>Elephant</p>
+          <div class="img"><img src="./images/primates.jpg" alt=""></div>
+          <p><span>c</span>Primates Family</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
-          <div class="img"><img src="./images/buffalo.jpg" alt=""></div>
-          <p><span>c</span>Buffalo</p>
+          <div class="img"><img src="./images/amphibians.jpg" alt=""></div>
+          <p><span>c</span>Amphibians+ Salamanders</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
-          <div class="img"><img src="./images/lion.jpg" alt=""></div>
-          <p><span>c</span>Lion</p>
+          <div class="img"><img src="./images/birds1.jpg" alt=""></div>
+          <p><span>c</span>African Birds</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
-          <div class="img"><img src="./images/leopard.jpg" alt=""></div>
-          <p><span>c</span>Leopard</p>
+          <div class="img"><img src="./images/reptile.jpg" alt=""></div>
+          <p><span>c</span>Land Reptiles</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
-          <div class="img"><img src="./images/giraffe.jpg" alt=""></div>
-          <p><span>c</span>Giraffe</p>
+          <div class="img"><img src="./images/shark.webp" alt=""></div>
+          <p><span>c</span>Aquatic Animals</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
-          <div class="img"><img src="./images/gorilla.jpg" alt=""></div>
-          <p><span>c</span>Gorilla</p>
+          <div class="img"><img src="./images/cat family.jpg" alt=""></div>
+          <p><span>c</span>The Cat Family</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/hyena.jpg" alt=""></div>
-          <p><span>c</span>Hyena</p>
+          <p><span>c</span>The Dog Family</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section class="sec">
-          <div class="img"><img src="./images/wilde beest.jpg" alt=""></div>
-          <p><span>c</span>Wilde Beest</p>
+          <div class="img"><img src="./images/domestic.jpg" alt=""></div>
+          <p><span>c</span>Domesticated Animals</p>
           <a href="" target="blank">click to view more</a>
         </section>
         <section id="plants" class="sec">
-          <div class="img"><img src="./images/snake.jpg" alt=""></div>
-          <p><span>c</span>Snake</p>
+          <div class="img"><img src="./images/plants.jpg" alt=""></div>
+          <p><span>c</span>Natural+Artificial Plants</p>
           <a href="" target="blank">click to view more</a>
         </section>
       </div>
 
-       <!-- plants section -->
-        <div class="title1">
-          <p>Plants &plus;</p>
-        </div>
-      <div class="main">
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> Plants</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> Plants</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> Plants</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> Plants</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> Plants</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> Plants</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> Plants</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section id="aquatic" class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> Plants</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-      </div>
-
-      <!-- aquatic section -->
-      <div class="title1">
-          <p>Aquatic Animals &plus;</p>
-        </div>
-      <div class="main">
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> Aquatic</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> Aquatic</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> Aquatic</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> Aquatic</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> Aquatic</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> Aquatic</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> Aquatic</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section id="birds" class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span> Aquatic</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-      </div>
-
-      <!-- birds -->
-      <div class="title1">
-          <p>Birds &plus;</p>
-        </div>
-      <div class="main">
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span>Birds</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span>Birds</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span>Birds</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span>Birds</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span>Birds</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span>Birds</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span>Birds</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-        <section class="sec">
-          <div class="img">Image</div>
-          <p><span>c</span>Birds</p>
-          <a href="" target="blank">click to view more</a>
-        </section>
-      </div>
 
       <!-- gameparks section -->
       <div class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3095102.7314813687!2d34.64083257211432!3d-0.6308324765540915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182780d08350900f%3A0x403b0eb0a1976dd9!2sKenya!5e0!3m2!1sen!2ske!4v1682118043516!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
+
+
+
+      <!-- links to scripts -->
   <script src="index.js"></script>
+
+  <!-- typing effext/text effect animation using js -->
+  <script>
+    var typed = new Typed('.auto-type',{
+      strings:["Welcome to Group Five Members' Presentation", "The Presentation is based on African i.e. Kenyan Wildlife", "The group members are:","Allan","Davis","Mike","Steve","and Juma","Login and Get started!!"],
+      typeSpeed:120,
+      backSpeed:50,
+      loop: true,
+      loopSpeed:100
+    })
+  </script>
   </body>
 </html>

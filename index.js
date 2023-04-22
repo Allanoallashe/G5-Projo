@@ -19,7 +19,15 @@ document.querySelectorAll('.drop-down a').forEach(a => {
     document.querySelector('.drop-down').style.marginTop="-200%";
     document.querySelector('.drop-down').style.transition="all ease-in-out 0.5s";
   }
-})
+});
+document.querySelectorAll('.drop-down.home a').forEach(a => {
+  a.onclick = () => {
+    document.querySelector('.drop-down.home').style.marginTop = "-200%";
+    document.querySelector('.drop-down.home').style.transition="all ease-in-out 0.5s";
+    alert('Login to proceed!');
+  }
+});
+
 
 
 
@@ -43,10 +51,14 @@ const profileDisplay = document.querySelector('.profileDrop');
   
 profile.addEventListener('mouseenter', () => {
   profileDisplay.style.display = "flex";
-  profileDisplay.style.transition="all 0.3s ease-in-out";
+  profileDisplay.style.transition = "all 0.3s ease-in-out";
+  profile.style.backgroundColor="#caffed";
 });
 
 profileDisplay.addEventListener('mouseleave', () => {
   profileDisplay.style.display="none";
-  profileDisplay.style.transition="all 0.3s ease-in-out";
+  profileDisplay.style.transition = "all 0.3s ease-in-out";
+  profile.style.backgroundColor="#fff";
 })
+
+

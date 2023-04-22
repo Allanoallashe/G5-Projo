@@ -7,6 +7,23 @@
 
   $user_data = check_login($con);
 
+  if (!isset($_SESSION['user_id'])) {
+   header("Location: reg.php");
+  die();
+  }
+  // //code
+// $_SESSION['fromMain'] = "true";
+// header("Location: noaccess.php");
+//if($_SESSION['fromMain'] == "false"){
+   //send them back
+//    header("Location: foo.php");
+// }
+// else{
+//    //reset the variable
+//    $_SESSION['fromMain'] = "false";
+// } 
+
+
    function check_login($con){
    if(isset($_SESSION['user_id']))
    {
@@ -40,9 +57,26 @@
 </head>
 <body>
     <nav>
-      <p><img class="logo" src="./images/logo.jpg">Wildlife</p>
+      <!-- <p><img class="logo" src="./images/logo.jpg">Wildlife</p> -->
+      <div class="graphics">
+        <img class="logo" src="./images/logo.jpg">
+        <svg viewBox="0 0 960 300">
+          <symbol id="s-text">
+            <text text-anchor="middle" x="50%" y="80%">Wildlife</text>
+          </symbol>
+
+          <g class = "g-ants">
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+          </g>
+        </svg>
+      </div>
+      
        <main id="main">
-        <i class="fa fa-caret-down"></i> Terestrial
+        <i class="fa fa-caret-down"></i> More
         </main> 
         <!-- drop down -->
         <div class="drop-down">
@@ -55,7 +89,7 @@
 
       <div class="profile">
           <i class="fa-solid fa-user"></i>
-          Victor
+          <?php echo $user_data['name'];?>
           <i id="viewProfile" class="fa fa-caret-down"></i>
 
       <div class="profileDrop">
@@ -276,6 +310,11 @@
           <p><span>c</span>Birds</p>
           <a href="" target="blank">click to view more</a>
         </section>
+      </div>
+
+      <!-- map section -->
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3095102.7314813687!2d34.64083257211432!3d-0.6308324765540915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182780d08350900f%3A0x403b0eb0a1976dd9!2sKenya!5e0!3m2!1sen!2ske!4v1682118043516!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
   <script src="index.js"></script>
   </body>

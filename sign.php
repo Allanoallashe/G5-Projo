@@ -3,7 +3,11 @@
 
     session_start();
     include("connect.php");
+   
     
+    // catch errors
+    try{
+
     // uploading registration details into the database
   if($_SERVER['REQUEST_METHOD'] == "POST"){
     // something was posted
@@ -26,7 +30,9 @@
       echo "Fill in the Required Fields!";
     }
   }
-
+    }catch(Exception $e){
+      echo ('Email Already Exists!');
+    }
 
   // functions for validation
   
