@@ -13,7 +13,7 @@ body{
 .logo{
   height: 30px;
   border-radius: 50%;
-  margin-right: -32px;
+  margin-right: -25px;
 }
 /* registration */
 nav{
@@ -57,7 +57,7 @@ svg {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    font: 200px 'Montserrat';
+    font: 240px 'Montserrat';
     width: 180px;
     height: 44px;
 }
@@ -66,13 +66,14 @@ svg {
     fill: #060152;
     stroke: #f5f5f5;
     stroke-dasharray: 6% 29%;
-    stroke-width: 9px;
+    stroke-width: 12px;
     stroke-dashoffset: 0%;
     animation: stroke-offset 6s infinite linear;
 }
 
 .text-copy:nth-child(1){
-	stroke: #ff0000;
+	/* stroke: #ff0000; */
+	stroke: yellow;
 	animation-delay: -1;
 }
 
@@ -221,6 +222,7 @@ nav main:hover{
   justify-content: space-evenly;
   height: 40px;
   padding: 2px 16px;
+  width: 180px;
   border-radius: 20px;
   border: none;
   position: relative;
@@ -240,8 +242,11 @@ nav main:hover{
   background-color: #06066a;
   display: none;
   z-index: 10000;
+  padding-left:20px;
+  white-space: nowrap;
+  padding-right:20px;
   align-items: center;
-  width: 100%;
+  min-width: 100%;
   height: 130px;
   justify-content: space-evenly;
   flex-direction: column;
