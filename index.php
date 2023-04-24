@@ -124,6 +124,64 @@
 
 
 
+        <!-- footer section -->
+        <div class="footer">
+          <div class="contact">
+            <p>Contact</p>
+            <ul>
+              <li><strong>Address:</strong> 
+              <small>P.O.BOX 3900 Eldoret 30100 
+              </small> 
+             </li>
+              <li><strong>Location:</strong> <small>Eldoret</small></li>
+              <li><strong>Phone:</strong> <small>+254 (0)53 43363 / 43620</small></li>
+              <li><strong>Email:</strong> <small>vcmu@mu.ac.ke</small>
+              </li>
+              <li><strong>Website:</strong>  <small>www.mu.ac.ke</small></li>
+            </ul>
+          </div>
+          <div class="contact">
+            <p>About Us</p>
+
+             <p>This website was created by Allan, Davis,Mike, Juma and Steve majorly to emphasize on the significance of African Wildlife.</p>
+          </div>
+          <div class="contact">
+            <p>Social Media</p>
+              <div class="social-icons">
+              <a href="#" class="s-icon-link" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="s-icon-link" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="#" class="s-icon-link" target="_blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="#" class="s-icon-link" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="s-icon-link" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+          <div class="contact">
+            <p>Install App</p>
+            <div class="os">
+              <img src="./images/google.svg" alt="">
+              <img src="./images//mac.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <footer>
+          <p>
+            <strong>&copy;</strong> @groupFiveDevelopers.com
+          </p>
+        </footer>
+
+
+
+
       <!-- links to scripts -->
   <script src="index.js"></script>
 

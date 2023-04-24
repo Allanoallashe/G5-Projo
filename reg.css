@@ -13,9 +13,9 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: animate 20s ease infinite normal;
+  animation: animate 300s ease infinite normal;
 }
-/* keyframes */
+/* keyframes reg page*/
   @keyframes animate {
     0%,100%{
       background-image: url('./images/background.jpg');
@@ -238,7 +238,7 @@ body{
     right: 0;
     height: 50px;
     background-color: rgba(0, 0, 0, 0.4);
-    border-bottom: 1px dotted #e2e2e2;
+    border-bottom: 1px dotted #ababab;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -261,7 +261,7 @@ body{
     left: 0;
     background-color: rgba(0, 0, 0, 0.75);
     height: 40px;
-    border-top: 1px dotted #dbdbdb;
+    border-top: 1px dotted #ababab;
   }
 
   .main footer p{
