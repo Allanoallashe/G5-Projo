@@ -67,7 +67,8 @@
         <section class="sec">
           <div class="img"><img src="./images/big five.jpg" alt="bigFive"></div>
           <p><span></span>The Big Five Africa</p>
-          <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a></button>
+          <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/primates.jpg" alt=""></div>
@@ -82,7 +83,7 @@
           </button>
         </section>
         <section class="sec">
-          <div class="img"><img src="./images/birds1.jpg" alt=""></div>
+          <div class="img"><img src="./images/bird2.jpg" alt=""></div>
           <p><span></span>African Birds</p>
            <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
           </button>
