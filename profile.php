@@ -11,16 +11,18 @@
    header("Location: reg.php");
   die();
   }
-  // //code
-// $_SESSION['fromMain'] = "true";
-// header("Location: noaccess.php");
-//if($_SESSION['fromMain'] == "false"){
-   //send them back
-//    header("Location: foo.php");
-// }
+  
+  //code
+// $_SESSION['user_id'] = "true";
+// header("Location: profile.php");
+// if($_SESSION['user_id'] == "false"){
+//   // redirect users
+//    header("Location: reg.php");
+//    die;
+//   }
 // else{
 //    //reset the variable
-//    $_SESSION['fromMain'] = "false";
+//    $_SESSION['user_id'] = "false";
 // } 
 
 

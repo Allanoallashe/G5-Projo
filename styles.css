@@ -300,37 +300,63 @@ section p{
   font-size: 18px;
   font-weight: bold;
   white-space: nowrap;
+  color: #00244a;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .sec span{
-  background-color: #fff;
+  background-color: #003a79;
   height: 30px;
   width: 30px;
   display: flex;
   border-radius: 15px;
   margin-right: 5px;
 }
-.sec a{
-  color: #fff;
-  font-size: 16px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
 section:hover{
   transform: scale(1.045);
   cursor: pointer;
   transition: all ease-in-out 0.2s;
   opacity: 0.9;
 }
-.sec a:hover{
-  color: #06066a;
-  cursor: pointer;
-  text-decoration: underline;
-  transition: all ease-in-out 0.2s;
-}
+/* section buttons */
+  .btn-button{
+    /* background-color: #3900a3; */
+    background-image: linear-gradient(to top, #063970, #003581, #002e90, #14229c, #3900a3);
+    border: none;
+    height: 40px;
+    width: 190px;
+    cursor: pointer;
+    border-radius: 22px;
+    position: relative;
+  }
+  .btn-button a{
+    border: none;
+    height: 40px;
+    width: 190px;
+    border-radius: 22px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    font-size: 16px;
+    z-index: 50;
+  }
+  .btn-button::after{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content:'';
+    border-radius: 22px;
+    background-image: linear-gradient(to bottom, #00c700, #02b004, #049a07, #058508, #067008);
+    transition: all 0.2s ease;
+  }
+  .btn-button:hover:after{
+    width: 100%;
+  }
+
 
 /* titles */
 .title1{

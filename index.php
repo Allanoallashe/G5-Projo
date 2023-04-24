@@ -66,8 +66,8 @@
       <div class="main last">
         <section class="sec">
           <div class="img"><img src="./images/big five.jpg" alt="bigFive"></div>
-          <p><span>c</span>The Big Five Africa</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>The Big Five Africa</p>
+          <button class="btn-button"><a href="" target="blank">click to view more</a></button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/primates.jpg" alt=""></div>
