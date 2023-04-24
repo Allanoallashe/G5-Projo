@@ -67,52 +67,61 @@
         <section class="sec">
           <div class="img"><img src="./images/big five.jpg" alt="bigFive"></div>
           <p><span></span>The Big Five Africa</p>
-          <button class="btn-button"><a href="" target="blank">click to view more</a></button>
+          <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a></button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/primates.jpg" alt=""></div>
-          <p><span>c</span>Primates Family</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Primates Family</p>
+          <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/amphibians.jpg" alt=""></div>
-          <p><span>c</span>Amphibians+ Salamanders</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Amphibians+ Salamanders</p>
+           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/birds1.jpg" alt=""></div>
-          <p><span>c</span>African Birds</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>African Birds</p>
+           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/reptile.jpg" alt=""></div>
-          <p><span>c</span>Land Reptiles</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Land Reptiles</p>
+           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/shark.webp" alt=""></div>
-          <p><span>c</span>Aquatic Animals</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Aquatic Animals</p>
+           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/cat family.jpg" alt=""></div>
-          <p><span>c</span>The Cat Family</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>The Cat Family</p>
+           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/hyena.jpg" alt=""></div>
-          <p><span>c</span>The Dog Family</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>The Dog Family</p>
+           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/domestic.jpg" alt=""></div>
-          <p><span>c</span>Domesticated Animals</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Domesticated Animals</p>
+           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+          </button>
         </section>
         <section id="plants" class="sec">
           <div class="img"><img src="./images/plants.jpg" alt=""></div>
-          <p><span>c</span>Natural+Artificial Plants</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Natural+Artificial Plants</p>
+           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+          </button>
         </section>
       </div>
 
@@ -148,19 +157,19 @@
           <div class="contact">
             <p>Social Media</p>
               <div class="social-icons">
-              <a href="#" class="s-icon-link" target="_blank">
+              <a href="#" class="s-icon-link" target="">
                 <i class="fab fa-instagram"></i>
               </a>
-              <a href="#" class="s-icon-link" target="_blank">
+              <a href="#" class="s-icon-link" target="">
                 <i class="fab fa-facebook"></i>
               </a>
-              <a href="#" class="s-icon-link" target="_blank">
+              <a href="#" class="s-icon-link" target="">
                 <i class="fab fa-youtube"></i>
               </a>
-              <a href="#" class="s-icon-link" target="_blank">
+              <a href="#" class="s-icon-link" target="">
                 <i class="fab fa-twitter"></i>
               </a>
-              <a href="#" class="s-icon-link" target="_blank">
+              <a href="#" class="s-icon-link" target="">
                 <i class="fab fa-whatsapp"></i>
               </a>
             </div>

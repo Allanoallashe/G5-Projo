@@ -351,7 +351,7 @@ section:hover{
     content:'';
     border-radius: 22px;
     background-image: linear-gradient(to bottom, #00c700, #02b004, #049a07, #058508, #067008);
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
   }
   .btn-button:hover:after{
     width: 100%;
@@ -581,7 +581,7 @@ marquee{
       padding: 12px;
     }
     .contact{
-      background-color: #d9d9d9;
+      background-color: #ededed;
       border-radius: 8px;
       height: 300px;
       max-width: 300px;
