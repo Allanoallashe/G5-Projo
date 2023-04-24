@@ -123,53 +123,63 @@
       <div class="main">
         <section class="sec">
           <div class="img"><img src="./images/Rhino.jpg" alt=""></div>
-          <p><span>c</span>Rhino</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Rhino</p>
+           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/elephant.jpg" alt=""></div>
-          <p><span>c</span>Elephant</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Elephant</p>
+           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/buffalo.jpg" alt=""></div>
-          <p><span>c</span>Buffalo</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Buffalo</p>
+           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/lion.jpg" alt=""></div>
-          <p><span>c</span>Lion</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Lion</p>
+           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/leopard.jpg" alt=""></div>
-          <p><span>c</span>Leopard</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Leopard</p>
+           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/giraffe.jpg" alt=""></div>
-          <p><span>c</span>Giraffe</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Giraffe</p>
+           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/gorilla.jpg" alt=""></div>
-          <p><span>c</span>Gorilla</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Gorilla</p>
+           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/hyena.jpg" alt=""></div>
-          <p><span>c</span>Hyena</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Hyena</p>
+           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/wilde beest.jpg" alt=""></div>
-          <p><span>c</span>Wilde Beest</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Wilde Beest</p>
+           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+          </button>
         </section>
         <section id="plants" class="sec">
           <div class="img"><img src="./images/snake.jpg" alt=""></div>
-          <p><span>c</span>Snake</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Snake</p>
+           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+          </button>
         </section>
       </div>
 
@@ -180,43 +190,51 @@
       <div class="main">
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> Plants</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span> Plants</p>
+           <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> Plants</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span> Plants</p>
+           <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> Plants</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span> Plants</p>
+           <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> Plants</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span> Plants</p>
+           <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> Plants</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span> Plants</p>
+           <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> Plants</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span> Plants</p>
+           <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> Plants</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span> Plants</p>
+           <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section id="aquatic" class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> Plants</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span> Plants</p>
+           <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
       </div>
 
@@ -227,43 +245,51 @@
       <div class="main">
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> Aquatic</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span> Aquatic</p>
+          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> Aquatic</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span> Aquatic</p>
+          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> Aquatic</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span> Aquatic</p>
+          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> Aquatic</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span> Aquatic</p>
+          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> Aquatic</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span> Aquatic</p>
+          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> Aquatic</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span> Aquatic</p>
+          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> Aquatic</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span> Aquatic</p>
+          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section id="birds" class="sec">
           <div class="img">Image</div>
-          <p><span>c</span> Aquatic</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span> Aquatic</p>
+          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
       </div>
 
@@ -274,43 +300,51 @@
       <div class="main">
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span>Birds</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Birds</p>
+          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span>Birds</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Birds</p>
+          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span>Birds</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Birds</p>
+          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span>Birds</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Birds</p>
+          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span>Birds</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Birds</p>
+          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span>Birds</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Birds</p>
+          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span>Birds</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Birds</p>
+          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
         <section class="sec">
           <div class="img">Image</div>
-          <p><span>c</span>Birds</p>
-          <a href="" target="blank">click to view more</a>
+          <p><span></span>Birds</p>
+          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          </button>
         </section>
       </div>
 
