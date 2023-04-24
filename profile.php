@@ -371,11 +371,6 @@
             </ul>
           </div>
           <div class="contact">
-            <p>About Us</p>
-
-             <p>This website was created by Allan, Davis,Mike, Juma and Steve majorly to emphasize on the significance of African Wildlife.</p>
-          </div>
-          <div class="contact">
             <p>Social Media</p>
               <div class="social-icons">
               <a href="#" class="s-icon-link" target="_blank">
