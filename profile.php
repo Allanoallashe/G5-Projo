@@ -316,6 +316,64 @@
       <div class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3095102.7314813687!2d34.64083257211432!3d-0.6308324765540915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182780d08350900f%3A0x403b0eb0a1976dd9!2sKenya!5e0!3m2!1sen!2ske!4v1682118043516!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
+
+
+                <!-- footer section -->
+        <div class="footer">
+          <div class="contact">
+            <p>Contact</p>
+            <ul>
+              <li><strong>Address:</strong> 
+              <small>P.O.BOX 3900 Eldoret 30100 
+              </small> 
+             </li>
+              <li><strong>Location:</strong> <small>Eldoret</small></li>
+              <li><strong>Phone:</strong> <small>+254 (0)53 43363 / 43620</small></li>
+              <li><strong>Email:</strong> <small>vcmu@mu.ac.ke</small>
+              </li>
+              <li><strong>Website:</strong>  <small>www.mu.ac.ke</small></li>
+            </ul>
+          </div>
+          <div class="contact">
+            <p>About Us</p>
+
+             <p>This website was created by Allan, Davis,Mike, Juma and Steve majorly to emphasize on the significance of African Wildlife.</p>
+          </div>
+          <div class="contact">
+            <p>Social Media</p>
+              <div class="social-icons">
+              <a href="#" class="s-icon-link" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="s-icon-link" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="#" class="s-icon-link" target="_blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="#" class="s-icon-link" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="s-icon-link" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+          <div class="contact">
+            <p>Install App</p>
+            <div class="os">
+              <img src="./images/google.svg" alt="">
+              <img src="./images//mac.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <footer>
+          <p>
+            <strong>&copy;</strong> @groupFiveDevelopers.com
+          </p>
+        </footer>
+
+
   <script src="index.js"></script>
   </body>
 </html>
