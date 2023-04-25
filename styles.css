@@ -255,7 +255,7 @@ nav main:hover{
 }
 
 
-/* main section */
+/* main section  majorly images*/
 .main{
   margin-top: 25px;
   display: flex;
@@ -741,4 +741,4 @@ marquee{
       padding-left:16px;
       padding-right:16px;
     }
-}
+ }

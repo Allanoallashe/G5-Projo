@@ -144,10 +144,10 @@ function validEmail(emailOne)
 {
   return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(emailOne);
 }
-function validEmail(emailTwo)
-{
-  return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(emailTwo);
-}
+// function validEmail(emailTwo)
+// {
+//   return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(emailTwo);
+// }
 
   document.querySelector('.submit').addEventListener('click', (e) => {
     if (pwdTwo.value.trim() === pwdOne.value.trim()) {
