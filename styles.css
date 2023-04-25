@@ -639,6 +639,7 @@ marquee{
     }
     .contact p:last-child{
       font-size: 19px;
+      text-align: center;
     }
     .contact ul li{
       list-style: none;
@@ -698,3 +699,46 @@ marquee{
     .social-icons a:nth-child(5){
       background-image: linear-gradient(to right top, #196e2f, #1e883a, #24a346, #2abf51, #31dc5d);
     }
+
+
+
+
+
+    /* media query */
+    @media only screen and (min-width:469px) and (max-width:629px){
+      .sec{
+        max-width: 560px;
+        width: 85%;
+      }
+      .footer .contact{
+        max-width: 560px;
+        width: 85%;
+      }
+    }
+    @media only screen and (max-width:468px){
+    nav button{
+      height: 30px;
+      width: 80px;
+      margin-right: 4px;
+      border: none;
+      border-radius: 15px;
+   }
+    nav button a{
+       height: 30px;
+  }
+  .profile{
+  height: 32px;
+  padding: 2px 12px;
+  width: 150px;
+  border-radius: 16px;
+}
+.profile i:first-child{
+  margin-right: 4px;
+}
+.profileDrop{
+  top: 45px;
+  left: 0;
+  padding-left:16px;
+  padding-right:16px;
+}
+}

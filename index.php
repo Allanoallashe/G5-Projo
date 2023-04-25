@@ -151,11 +151,6 @@
             </ul>
           </div>
           <div class="contact">
-            <p>About Us</p>
-
-             <p>This website was created by Allan, Davis,Mike, Juma and Steve majorly to emphasize on the significance of African Wildlife.</p>
-          </div>
-          <div class="contact">
             <p>Social Media</p>
               <div class="social-icons">
               <a href="#" class="s-icon-link" target="">
@@ -170,7 +165,7 @@
               <a href="#" class="s-icon-link" target="">
                 <i class="fab fa-twitter"></i>
               </a>
-              <a href="#" class="s-icon-link" target="">
+              <a href="https://chat.whatsapp.com/EcHkEOjUMigIcdqipy5Myn" class="s-icon-link" target="blank">
                 <i class="fab fa-whatsapp"></i>
               </a>
             </div>
