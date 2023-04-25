@@ -656,8 +656,7 @@ marquee{
       margin-left: 8px;
     }
     .contact .social-icons a:hover{
-      background-color: #01a301;
-      transform: scale(1.025);
+      transform: scale(1.045);
       transition: all ease 0.2s;
     }
     .contact .os img:hover{
@@ -683,4 +682,19 @@ marquee{
       margin-right: 3px;
       font-size: 22px;
       font-weight: bold;
+    }
+    .social-icons a:nth-child(1){
+      background-image: linear-gradient(to right top, #fdb559, #f98656, #e85861, #c82f71, #961980);
+    }
+    .social-icons a:nth-child(2){
+      background-image: linear-gradient(to right top, #0a0373, #1a127a, #261e81, #312a88, #3b358f);
+    }
+    .social-icons a:nth-child(3){
+      background-image: linear-gradient(to right top, #ac0e14, #b2151a, #b91c21, #bf2127, #c5272d);
+    }
+    .social-icons a:nth-child(4){
+      background-image: linear-gradient(to right top, #229a98, #26aaa8, #29bab8, #2dcbc8, #31dcd9);
+    }
+    .social-icons a:nth-child(5){
+      background-image: linear-gradient(to right top, #196e2f, #1e883a, #24a346, #2abf51, #31dc5d);
     }

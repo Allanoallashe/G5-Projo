@@ -373,19 +373,19 @@
           <div class="contact">
             <p>Social Media</p>
               <div class="social-icons">
-              <a href="#" class="s-icon-link" target="_blank">
+              <a href="#" class="s-icon-link" target="">
                 <i class="fab fa-instagram"></i>
               </a>
-              <a href="#" class="s-icon-link" target="_blank">
+              <a href="#" class="s-icon-link" target="">
                 <i class="fab fa-facebook"></i>
               </a>
-              <a href="#" class="s-icon-link" target="_blank">
+              <a href="#" class="s-icon-link" target="">
                 <i class="fab fa-youtube"></i>
               </a>
-              <a href="#" class="s-icon-link" target="_blank">
+              <a href="#" class="s-icon-link" target="">
                 <i class="fab fa-twitter"></i>
               </a>
-              <a href="#" class="s-icon-link" target="_blank">
+              <a href="#" class="s-icon-link" target="">
                 <i class="fab fa-whatsapp"></i>
               </a>
             </div>
