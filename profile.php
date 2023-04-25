@@ -124,61 +124,61 @@
         <section class="sec">
           <div class="img"><img src="./images/Rhino.jpg" alt=""></div>
           <p><span></span>Rhino</p>
-           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+           <button class="btn-button"><a href="https://www.britannica.com/animal/rhinoceros-mammal" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/elephant.jpg" alt=""></div>
           <p><span></span>Elephant</p>
-           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+           <button class="btn-button"><a href="https://www.worldwildlife.org/species/elephant" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/buffalo.jpg" alt=""></div>
           <p><span></span>Buffalo</p>
-           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+           <button class="btn-button"><a href="https://animals.net/buffalo/" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/lion.jpg" alt=""></div>
           <p><span></span>Lion</p>
-           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+           <button class="btn-button"><a href="https://www.britannica.com/animal/lion" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/leopard.jpg" alt=""></div>
           <p><span></span>Leopard</p>
-           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+           <button class="btn-button"><a href="https://www.britannica.com/animal/leopard" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/giraffe.jpg" alt=""></div>
           <p><span></span>Giraffe</p>
-           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+           <button class="btn-button"><a href="https://www.awf.org/wildlife-conservation/giraffe" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/gorilla.jpg" alt=""></div>
           <p><span></span>Gorilla</p>
-           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+           <button class="btn-button"><a href="https://www.britannica.com/animal/Gorilla-primate-genus" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/hyena.jpg" alt=""></div>
           <p><span></span>Hyena</p>
-           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+           <button class="btn-button"><a href="https://www.britannica.com/animal/hyena" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/wilde beest.jpg" alt=""></div>
           <p><span></span>Wilde Beest</p>
-           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+           <button class="btn-button"><a href="https://www.nationalgeographic.com/animals/mammals/facts/blue-wildebeest" target="blank">click to view more</a>
           </button>
         </section>
         <section id="plants" class="sec">
           <div class="img"><img src="./images/snake.jpg" alt=""></div>
           <p><span></span>Snake</p>
-           <button class="btn-button"><a href="./reg.php" target="blank">click to view more</a>
+           <button class="btn-button"><a href="https://www.nationalgeographic.com/animals/reptiles/facts/snakes-1" target="blank">click to view more</a>
           </button>
         </section>
       </div>
@@ -191,49 +191,49 @@
         <section class="sec">
           <div class="img"><img src="./images/acacia.jpg" alt=""></div>
           <p><span></span> Acacia</p>
-           <button class="btn-button"><a href="#" target="blank">click to view more</a>
+           <button class="btn-button"><a href="https://www.britannica.com/plant/acacia" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/bamboo.jpg" alt=""></div>
           <p><span></span> Bamboo</p>
-           <button class="btn-button"><a href="#" target="blank">click to view more</a>
+           <button class="btn-button"><a href="https://www.britannica.com/plant/bamboo" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/baobab.jpg" alt=""></div>
           <p><span></span> Baobab</p>
-           <button class="btn-button"><a href="#" target="blank">click to view more</a>
+           <button class="btn-button"><a href="https://www.britannica.com/plant/baobab-tree-genus" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/cactus.jpg" alt=""></div>
           <p><span></span> Cactus</p>
-           <button class="btn-button"><a href="#" target="blank">click to view more</a>
+           <button class="btn-button"><a href="https://www.britannica.com/plant/cactus" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/venus flytrap.jpg" alt=""></div>
           <p><span></span> Venus Fly trap</p>
-           <button class="btn-button"><a href="#" target="blank">click to view more</a>
+           <button class="btn-button"><a href="https://www.britannica.com/plant/Venus-flytrap" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/water lilies.jpg" alt=""> </div>
           <p><span></span> Water Lilie</p>
-           <button class="btn-button"><a href="#" target="blank">click to view more</a>
+           <button class="btn-button"><a href="https://www.britannica.com/plant/water-lily" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/elephant grass.jpg" alt=""></div>
           <p><span></span>Elephant Grass</p>
-           <button class="btn-button"><a href="#" target="blank">click to view more</a>
+           <button class="btn-button"><a href="https://www.fnp.com/article/everything-you-need-to-know-about-elephant-grass" target="blank">click to view more</a>
           </button>
         </section>
         <section id="aquatic" class="sec">
           <div class="img"><img src="./images/mangrove.jpg" alt=""></div>
           <p><span></span> mangrove</p>
-           <button class="btn-button"><a href="#" target="blank">click to view more</a>
+           <button class="btn-button"><a href="https://www.britannica.com/plant/mangrove" target="blank">click to view more</a>
           </button>
         </section>
       </div>
@@ -246,49 +246,49 @@
         <section class="sec">
           <div class="img"><img src="./images/white shark.jpg" alt=""></div>
           <p><span></span> Great white-shark</p>
-          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          <button class="btn-button"><a href="https://www.britannica.com/animal/white-shark" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/orca whle.jpg" alt=""></div>
           <p><span></span> Orca Whale</p>
-          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          <button class="btn-button"><a href="https://www.nationalgeographic.com/animals/mammals/facts/orca/" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/octopus.jpg" alt=""></div>
           <p><span></span> Octopus</p>
-          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          <button class="btn-button"><a href="https://www.nationalgeographic.com/animals/invertebrates/facts/octopus-facts" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/electric eel.jpg" alt=""></div>
           <p><span></span> Electric eel</p>
-          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          <button class="btn-button"><a href="https://www.nationalgeographic.com/animals/fish/facts/electric-eel" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/dolpgin.jpg" alt=""></div>
           <p><span></span> Dolphin</p>
-          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          <button class="btn-button"><a href="https://www.nationalgeographic.com/animals/mammals/facts/dolphins" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/turtle.jpg" alt=""></div>
           <p><span></span> Turtles</p>
-          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          <button class="btn-button"><a href="https://www.britannica.com/animal/turtle-reptile" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/hippo.jpg" alt=""></div>
           <p><span></span> Hippopotamus</p>
-          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          <button class="btn-button"><a href="https://www.nationalgeographic.com/animals/mammals/facts/hippopotamus" target="blank">click to view more</a>
           </button>
         </section>
         <section id="birds" class="sec">
           <div class="img"><img src="./images/jelly fish.jpg" alt=""></div>
           <p><span></span> Jelly fish</p>
-          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          <button class="btn-button"><a href="https://www.britannica.com/animal/jellyfish" target="blank">click to view more</a>
           </button>
         </section>
       </div>
@@ -301,43 +301,43 @@
         <section class="sec">
           <div class="img"><img src="./images/peacock.jpg" alt=""></div>
           <p><span></span> Peacock</p>
-          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          <button class="btn-button"><a href="https://www.britannica.com/animal/peacock" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/flamingo.jpg" alt=""></div>
           <p><span></span> Flamingo</p>
-          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          <button class="btn-button"><a href="https://www.britannica.com/animal/flamingo-bird" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/turkey.jpg" alt=""></div>
           <p><span></span> Turkey</p>
-          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          <button class="btn-button"><a href="https://www.britannica.com/animal/turkey-bird" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/king fisher.jpg" alt=""></div>
           <p><span></span> King Fisher</p>
-          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          <button class="btn-button"><a href="https://www.britannica.com/animal/kingfisher-bird" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/ostrich.jpg" alt=""></div>
           <p><span></span> Ostrich</p>
-          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          <button class="btn-button"><a href="https://www.britannica.com/animal/ostrich" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/owl.jpg" alt=""></div>
           <p><span></span> Owl</p>
-          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          <button class="btn-button"><a href="https://www.britannica.com/animal/owl" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
           <div class="img"><img src="./images/bald eagle.jpg" alt=""></div>
           <p><span></span> The bald eagle</p>
-          <button class="btn-button"><a href="#" target="blank">click to view more</a>
+          <button class="btn-button"><a href="https://www.nationalgeographic.com/animals/birds/facts/bald-eagle" target="blank">click to view more</a>
           </button>
         </section>
         <section class="sec">
